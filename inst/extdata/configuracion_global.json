@@ -1,0 +1,69 @@
+{ "Componente": [
+    { "nombre": "JSONs",
+      "ruta": ".",
+      "archivos": "*.json",
+      "destino": "."
+    },
+    { "nombre": "Datos MAT",
+      "ruta": "data",
+      "archivos": "*.mat",
+      "destino": "datos"
+    },
+    { "nombre": "Paquetes de datos (data packages)",
+      "ruta": "datapackage",
+      "archivos": "*",
+      "destino": "datos"
+    },
+    { "nombre": "Paquetes de datos (data packages)",
+      "ruta": "datapackages",
+      "archivos": "*",
+      "destino": "datos"
+    },
+    { "nombre": "Tablas CSV",
+      "ruta": "inst/extdata",
+      "archivos": "*.csv",
+      "destino": "datos"
+    },
+    { "nombre": "Datos JSON",
+      "ruta": "inst/extdata",
+      "archivos": "*.json",
+      "destino": "datos"
+    },
+    { "nombre": "Funciones viejas",
+      "ruta": "inst/MATLAB/funciones",
+      "archivos": "*.m",
+      "destino": "funciones"
+    },
+    { "nombre": "Clases",
+      "ruta": "MATLAB/clases",
+      "archivos": "*.m",
+      "destino": "+"
+    },
+    { "nombre": "Enumeraciones",
+      "ruta": "MATLAB/enumeraciones",
+      "archivos": "*.m",
+      "destino": "enumeraciones"
+    },
+    { "nombre": "Funciones",
+      "ruta": "MATLAB/funciones",
+      "archivos": "*.m",
+      "destino": "+"
+    },
+    {
+      "nombre": "Funciones privadas",
+      "ruta": "MATLAB/funciones/private",
+      "archivos": "*.m",
+      "destino": "private"
+    },
+    { "nombre": "Namespace",
+      "ruta": "MATLAB/namespace",
+      "archivos": "*.m",
+      "destino": "+"
+    },
+    { "nombre": "No namespace",
+      "ruta": "MATLAB/no-namespace",
+      "archivos": "*.m",
+      "destino": "no-namespace"
+    }
+  ]
+}
